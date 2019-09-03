@@ -1,0 +1,256 @@
+/*BASIC*/
+a{text-decoration: none;}
+*{
+  margin:0;
+  padding:0;
+  color:white;
+  font-family:'roboto',sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background:#333;
+}
+.nav{
+  display:flex;
+  background:black;
+  height:60px;
+  width:100%;
+}
+.cont{
+  display:flex;
+}
+.section{
+  background:#111;
+  flex:1;
+}
+.aside{
+  width:450px;
+  background:#111;
+}
+/*NAV*/
+.a{
+  text-decoration:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0 30px;
+}
+.img-cont{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.img{
+  width:80px;
+  height:16px;
+}
+form{
+  flex:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100%;
+}
+input{
+  background:#111;
+  color:#444;
+  font-size:16px;
+  padding-left: 10px;
+  border:1px solid #222;
+  height:30px;
+  width:500px;
+}
+button{
+  background:#333;
+  border:1px solid #222;
+  border-left:none;
+  width:50px;
+  height:30px;
+}
+.end{
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right:25px;
+}
+/*SIDEBAR*/
+.top{
+  margin-top: 10px;
+  height:30px;
+  display:flex;
+}
+.up-next{
+  flex:1;
+  display:flex;
+  align-items:center;
+}
+.autoplay-text{
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  color:#999;
+  font-size:12px;
+}
+.autoplay-img{
+  width:60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+/*SUGGESTED VIDEOS*/
+.suggested-video-cont{
+  display:flex;
+}
+.video-title{
+  font-family: 'roboto';
+  font-size:15px;
+  font-weight: 500;
+}
+.gray{
+  font-size:14px;
+  color:#999;
+}
+.new{
+  background:#333;
+  font-size: 13px;
+  padding:0 3px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.thumb{
+  margin:10px 10px 10px 0;
+}
+.video-details{
+  margin-top: 10px;
+}
+.first{
+  border-bottom:1px solid #333;
+}
+/*SECTION*/
+.section-cont{
+  width:1280px;
+  margin: 20px 20px 20px auto;
+}
+.main-video-title{
+  font-size: 18px;
+  margin:15px 0;
+}
+.main-views{
+  font-size: 16px;
+  color:#999;
+  flex:1;
+}
+.grayy{
+  font-size: 14px;
+  color:#999;
+  display:flex;
+  align-items: center;
+  margin:0 10px;
+}
+.details{
+  display:flex;
+  border-bottom:1px solid #333;
+  padding-bottom: 20px;
+}
+.grayy > img{
+  margin-right: 10px;
+}
+.like-and-dislike{
+  display:flex;
+  position: relative;
+}
+.bar{
+  height:2px;
+  width:85%;
+  position: absolute;
+  top:37px;
+  left:10px;
+  display:flex;
+}
+.likes{background:#999;flex:524;}
+.dislikes{background:#333;flex:9;}
+.below-first{margin-top:20px;display:flex;}
+.below-name-and-date{
+  font-size: 14px;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  margin-left: 20px;
+  flex:1;
+}
+.below-date{color:#999;font-size: 13px;}
+.below-subs{
+  color:#999;
+  background:#222;
+  padding:10px 15px;
+  border-radius:3px;
+  height:2.5rem;
+  font-size:14px;
+  display:flex;
+  align-items: center;
+}
+.below-subs-cont{
+  display:flex;
+}
+.below-bell-cont{
+  display:flex;
+  padding:0 20px;
+}
+.below-bell{
+  height:fit-content;
+  margin-top:.6rem;
+}
+.below-description{margin-top:1rem;}
+.below-description a{color:rgb(0, 125, 255);}
+.show-more{margin-top:1rem;}
+.below{
+  border-bottom:1px solid #333;
+  padding-bottom:20px;
+}
+/*COMMENTS*/
+.no-of-comments{margin-top:20px;display:inline-block;}
+.sort-by{
+  display:inline-block;
+  margin-left:20px;
+}
+.sort-by-img{
+  margin-right:5px;
+}
+.grayest{color:#999;}
+.comments-add{
+  display:block;
+  margin-left:20px;
+  width:100%;
+}
+.comments-add-text{
+  display:block;
+  padding:5px 0;
+  border-bottom: 1px solid #333;
+  color:#999;
+}
+.comments-add-cont{
+  margin-top:20px;
+  display:flex;
+}
+.comment{
+  margin-top:32px;
+  display:flex;
+}
+.comment-stuff{
+  margin-left:16px;
+}
+.comment-stuff-name{
+  display:inline-block;
+  font-weight: 500;
+  font-size: 13px;
+}
+.comment-stuff-date{
+  display:inline-block;
+  font-size: 13px;
+}
+.comment-stuff-text{
+  margin-top: 5px;
+  font-size:14px;
+}
